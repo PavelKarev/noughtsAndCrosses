@@ -1,0 +1,16 @@
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+}
+
+.cell {
+  border: 1px solid #000;
+  width: 75px;
+  height: 75px;
+  display: block;
+}
