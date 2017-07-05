@@ -45,11 +45,6 @@ module.exports = {
   },
   plugins: [
     new ExtractTextPlugin('[name].[hash].bundle.css'),
-    new webpack.ProvidePlugin({
-      $: 'jquery',
-      jQuery: 'jquery',
-      'window.jQuery': 'jquery'
-    }),
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
